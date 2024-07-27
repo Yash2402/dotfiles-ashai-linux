@@ -93,6 +93,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 1%-
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Zoooooooommmmmmm
+bindsym $mod+z exec boomer
+
 # Rofi search
 bindsym $mod+space exec rofi -show combi 
 bindsym $mod+d exec rofi -show drun
@@ -108,7 +111,7 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec alacritty 
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # change focus
 bindsym $mod+h focus left
