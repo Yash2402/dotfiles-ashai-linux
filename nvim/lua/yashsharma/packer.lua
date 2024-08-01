@@ -7,21 +7,16 @@ return require('packer').startup(function(use)
         end,
     }
     use 'roxma/nvim-yarp'
-    use { 'norcalli/nvim-colorizer.lua', }
+    use 'norcalli/nvim-colorizer.lua'
     use 'roxma/vim-hug-neovim-rpc'
-    use { 'j-hui/fidget.nvim',
-        tag = 'legacy',
-    }
+    use 'j-hui/fidget.nvim'
     use {
         "stevearc/oil.nvim",
         dependencies = { "nvim-tree/nvim-web-devicons" },
     }
     use {
         "gelguy/wilder.nvim",
-        keys = {
-            "/",
-            ":",
-        },
+        keys = { "/", ":", },
         config = function()
             local wilder = require("wilder")
             local macchiato = require("catppuccin.palettes").get_palette("mocha")
@@ -114,13 +109,11 @@ return require('packer').startup(function(use)
         }
     }
     -- install without yarn or npm
-    use({
-        "iamcco/markdown-preview.nvim",
+    use({ "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,
     })
 
     use({
-        "iamcco/markdown-preview.nvim",
         run = "cd app && npm install",
         setup = function()
             vim.g.mkdp_filetypes = {
