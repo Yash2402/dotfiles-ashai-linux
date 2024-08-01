@@ -1,8 +1,8 @@
 * {
-    font: "Iosevka Nerd Font 13";
+    font: "Satoshi Variable 13";
     g-spacing: 10px;
     g-margin: 0;
-    b-color: #000000FF;
+    b-color: #000000aa;
     fg-color: #FFFFFFFF;
     fgp-color: #888888FF;
     b-radius: 8px;
