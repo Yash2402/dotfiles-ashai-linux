@@ -16,7 +16,7 @@ return require('packer').startup(function(use)
     }
     use {
         "gelguy/wilder.nvim",
-        keys = { "/", ":", },
+        keys = { "/", ":"},
         config = function()
             local wilder = require("wilder")
             local macchiato = require("catppuccin.palettes").get_palette("mocha")

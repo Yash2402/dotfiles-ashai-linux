@@ -233,7 +233,7 @@ _G.packer_plugins = {
     url = "https://github.com/tpope/vim-surround"
   },
   ["wilder.nvim"] = {
-    config = { "\27LJ\2\nÅ\a\0\0\15\0-\2N6\0\0\0'\2\1\0B\0\2\0026\1\0\0'\3\2\0B\1\2\0029\1\3\1'\3\4\0B\1\2\0029\2\5\0'\4\6\0004\5\4\0005\6\a\0>\6\1\0055\6\b\0>\6\2\0055\6\t\0009\a\n\1=\a\v\6>\6\3\5B\2\3\0029\3\5\0'\5\f\0004\6\4\0005\a\r\0>\a\1\0065\a\14\0>\a\2\0065\a\15\0009\b\16\1=\b\v\a>\a\3\6B\3\3\0029\4\17\0005\6\19\0005\a\18\0=\a\20\6B\4\2\0019\4\21\0'\6\22\0004\a\3\0009\b\23\0009\n\24\0005\f\25\0B\n\2\0029\v\26\0005\r\27\0B\v\2\0A\b\1\0?\b\0\0B\4\3\0019\4\21\0'\6\28\0009\a\29\0009\t\30\0005\v \0009\f\31\0B\f\1\2=\f!\v5\f\"\0=\2#\f=\3$\f=\3%\f=\f&\v5\f'\0009\r(\0B\r\1\0?\r\1\0=\f)\v5\f*\0009\r+\0B\r\1\0?\r\1\0=\f,\vB\t\2\0A\a\0\0A\4\1\1K\0\1\0\nright\24popupmenu_scrollbar\1\2\0\0\6 \tleft\23popupmenu_devicons\1\2\0\0\6 \15highlights\vaccent\vborder\fdefault\1\0\3\vborder\0\vaccent\0\fdefault\0\16highlighter\1\0\t\vborder\frounded\14min_width\t100%\rpumblend\3\5\15max_height\b25%\15highlights\0\tleft\0\16highlighter\0\nright\0\15min_height\b25%\22basic_highlighter\27popupmenu_border_theme\23popupmenu_renderer\rrenderer\1\0\1\nfuzzy\3\1\24vim_search_pipeline\1\0\1\nfuzzy\3\1\21cmdline_pipeline\vbranch\rpipeline\15set_option\nmodes\1\0\1\nmodes\0\1\3\0\0\6:\6/\nsetup\nmauve\1\0\2\15background\f#000000\15foreground\0\1\0\1\6a\3\1\1\0\1\6a\3\1\16WilderMauve\15foreground\ttext\1\0\2\15background\f#000000\15foreground\0\1\0\1\6a\3\1\1\0\1\6a\3\1\15WilderText\fmake_hl\nmocha\16get_palette\24catppuccin.palettes\vwilder\frequire\3€€À™\4\5€€À™\4\0" },
+    config = { "\27LJ\2\nÅ\a\0\0\15\0-\2N6\0\0\0'\2\1\0B\0\2\0026\1\0\0'\3\2\0B\1\2\0029\1\3\1'\3\4\0B\1\2\0029\2\5\0'\4\6\0004\5\4\0005\6\a\0>\6\1\0055\6\b\0>\6\2\0055\6\t\0009\a\n\1=\a\v\6>\6\3\5B\2\3\0029\3\5\0'\5\f\0004\6\4\0005\a\r\0>\a\1\0065\a\14\0>\a\2\0065\a\15\0009\b\16\1=\b\v\a>\a\3\6B\3\3\0029\4\17\0005\6\19\0005\a\18\0=\a\20\6B\4\2\0019\4\21\0'\6\22\0004\a\3\0009\b\23\0009\n\24\0005\f\25\0B\n\2\0029\v\26\0005\r\27\0B\v\2\0A\b\1\0?\b\0\0B\4\3\0019\4\21\0'\6\28\0009\a\29\0009\t\30\0005\v \0009\f\31\0B\f\1\2=\f!\v5\f\"\0=\2#\f=\3$\f=\3%\f=\f&\v5\f'\0009\r(\0B\r\1\0?\r\1\0=\f)\v5\f*\0009\r+\0B\r\1\0?\r\1\0=\f,\vB\t\2\0A\a\0\0A\4\1\1K\0\1\0\nright\24popupmenu_scrollbar\1\2\0\0\6 \tleft\23popupmenu_devicons\1\2\0\0\6 \15highlights\vaccent\vborder\fdefault\1\0\3\vborder\0\fdefault\0\vaccent\0\16highlighter\1\0\t\15min_height\b25%\nright\0\15max_height\b25%\tleft\0\14min_width\t100%\rpumblend\3\5\vborder\frounded\15highlights\0\16highlighter\0\22basic_highlighter\27popupmenu_border_theme\23popupmenu_renderer\rrenderer\1\0\1\nfuzzy\3\1\24vim_search_pipeline\1\0\1\nfuzzy\3\1\21cmdline_pipeline\vbranch\rpipeline\15set_option\nmodes\1\0\1\nmodes\0\1\3\0\0\6:\6/\nsetup\nmauve\1\0\2\15background\f#000000\15foreground\0\1\0\1\6a\3\1\1\0\1\6a\3\1\16WilderMauve\15foreground\ttext\1\0\2\15background\f#000000\15foreground\0\1\0\1\6a\3\1\1\0\1\6a\3\1\15WilderText\fmake_hl\nmocha\16get_palette\24catppuccin.palettes\vwilder\frequire\3€€À™\4\5€€À™\4\0" },
     keys = { { "", "/" }, { "", ":" } },
     loaded = false,
     needs_bufread = false,
@@ -244,14 +244,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: catppuccin
-time([[Config for catppuccin]], true)
-try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\27colorscheme catppuccin\bcmd\bvim\0", "config", "catppuccin")
-time([[Config for catppuccin]], false)
 -- Config for: gitsigns.nvim
 time([[Config for gitsigns.nvim]], true)
 try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0", "config", "gitsigns.nvim")
 time([[Config for gitsigns.nvim]], false)
+-- Config for: catppuccin
+time([[Config for catppuccin]], true)
+try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\27colorscheme catppuccin\bcmd\bvim\0", "config", "catppuccin")
+time([[Config for catppuccin]], false)
 -- Keymap lazy-loads
 time([[Defining lazy-load keymaps]], true)
 vim.cmd [[noremap <silent> / <cmd>lua require("packer.load")({'wilder.nvim'}, { keys = "/", prefix = "" }, _G.packer_plugins)<cr>]]
