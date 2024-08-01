@@ -46,7 +46,7 @@ for_window [instance="dropdown_dropdowncalc"] border pixel 3
 for_window [instance="dropdown_*"] move position center
 
 # target                 title     bg    text      indicator    border
-client.focused           $mantle   $mauve $mantle  $rosewater $mauve
+client.focused           $mantle   $mauve $mantle  $rosewater $lavender
 client.focused_inactive  $overlay0 $base  $text    $rosewater $overlay0
 client.unfocused         $overlay0 $base  $text    $rosewater $overlay0
 client.urgent            $peach    $base  $peach   $overlay0  $peach
@@ -56,8 +56,6 @@ client.background        $base
 exec xinput set-prop "pointer:Apple Internal Keyboard / Trackpad" "libinput Disable While Typing Enabled" 0
 exec_always --no-startup-id compton
 exec_always --no-startup-id picom
-exec_always killall pasystray
-exec_always --no-startup-id ~/scripts/pasystray.sh
 exec_always killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh 
 
@@ -76,8 +74,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/vortex-ring-sobel-figma.png
 
 # Volume Control
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +1%
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -1%
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +6.25%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -6.25%
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
@@ -87,14 +85,18 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Brightness Control
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +1%
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 1%-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +6.25%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 6.25%-
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # Zoooooooommmmmmm
 bindsym $mod+z exec boomer
+
+# Screenkeys
+bindsym $mod+shift+s exec screenkey
+bindsym $alt+shift+s exec killall screenkey
 
 # Rofi search
 bindsym $mod+space exec rofi -show combi 
