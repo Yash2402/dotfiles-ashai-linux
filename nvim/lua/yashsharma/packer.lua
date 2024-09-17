@@ -16,7 +16,7 @@ return require('packer').startup(function(use)
     }
     use {
         "gelguy/wilder.nvim",
-        keys = { "/", ":"},
+        keys = { "/", ":", "?"},
         config = function()
             local wilder = require("wilder")
             local macchiato = require("catppuccin.palettes").get_palette("mocha")
@@ -24,13 +24,13 @@ return require('packer').startup(function(use)
             -- Create a highlight group for the popup menu
             local text_highlight =
                 wilder.make_hl("WilderText",
-                    { { a = 1 }, { a = 1 }, { background = "#000000", foreground = macchiato.text } })
+                    { { a = 1 }, { a = 1 }, { background = "#00000000", foreground = macchiato.text } })
             local mauve_highlight =
                 wilder.make_hl("WilderMauve",
-                    { { a = 1 }, { a = 1 }, { background = "#000000", foreground = macchiato.mauve } })
+                    { { a = 1 }, { a = 1 }, { background = "#00000000", foreground = macchiato.mauve } })
 
             -- Enable wilder when pressing :, / or ?
-            wilder.setup({ modes = { ":", "/" } })
+            wilder.setup({ modes = { ":", "/", "?"} })
 
             -- Enable fuzzy matching for commands and buffers
             wilder.set_option("pipeline", {

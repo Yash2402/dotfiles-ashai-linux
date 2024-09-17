@@ -56,6 +56,8 @@ client.background        $base
 exec xinput set-prop "pointer:Apple Internal Keyboard / Trackpad" "libinput Disable While Typing Enabled" 0
 exec_always --no-startup-id compton
 exec_always --no-startup-id picom
+exec_always --no-startup-id autotiling
+exec_always --no-startup-id volumeicon
 exec_always killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh 
 
@@ -65,13 +67,13 @@ exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec --no-startup-id dex-autostart --autostart --environment i3
 
 # Lock
-bindsym $mod+shift+x exec betterlockscreen -l blur
+bindsym $mod+shift+x exec betterlockscreen -l blur 
 
 # NetworkManagers 
 exec --no-startup-id nm-applet
 
 # Wallpaper
-exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/vortex-ring-sobel-figma.png
+exec --no-startup-id feh --bg-fill ~/.config/screenshots/Wallpaper-used-vortex-ring-sobel-figma-created-by-yash-sharma.png
 
 # Volume Control
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +6.25%
@@ -92,7 +94,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 6.25%-
 floating_modifier $mod
 
 # Zoooooooommmmmmm
-bindsym $mod+z exec boomer
+bindsym $mod+z exec ~/dev/boomer/boomer
 
 # Screenkeys
 bindsym $mod+shift+s exec screenkey

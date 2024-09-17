@@ -1,2 +1,2 @@
 #!/bin/sh
-betterlockscreen -l pixel
+betterlockscreen -l blur
