@@ -1,0 +1,22 @@
+2025/01/28-02:11:55.994 175da Reusing MANIFEST /home/yashsharma/.config/chromium/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/28-02:11:55.994 175da Recovering log #3
+2025/01/28-02:11:55.996 175da Reusing old log /home/yashsharma/.config/chromium/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000003.log 
+2025/01/28-02:11:58.263 175ca Level-0 table #5: started
+2025/01/28-02:11:58.270 175ca Level-0 table #5: 1693707 bytes OK
+2025/01/28-02:11:58.271 175ca Delete type=0 #3
+2025/01/28-02:12:00.964 175c5 Level-0 table #7: started
+2025/01/28-02:12:00.970 175c5 Level-0 table #7: 4088215 bytes OK
+2025/01/28-02:12:00.971 175c5 Delete type=0 #4
+2025/01/28-02:12:01.161 175c6 Compacting 1@1 + 1@2 files
+2025/01/28-02:12:01.164 175c6 Generated table #8@1: 400 keys, 167218 bytes
+2025/01/28-02:12:01.164 175c6 Compacted 1@1 + 1@2 files => 167218 bytes
+2025/01/28-02:12:01.164 175c6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/28-02:29:15.968 175c6 Level-0 table #10: started
+2025/01/28-02:29:15.990 175c6 Level-0 table #10: 4153521 bytes OK
+2025/01/28-02:29:15.991 175c6 Delete type=2 #5
+2025/01/28-02:29:15.991 175c6 Delete type=0 #6
+2025/01/28-02:29:15.991 175c6 Delete type=2 #7
+2025/01/28-02:29:16.800 175ca Compacting 1@1 + 1@2 files
+2025/01/28-02:29:16.803 175ca Generated table #11@1: 449 keys, 42401 bytes
+2025/01/28-02:29:16.803 175ca Compacted 1@1 + 1@2 files => 42401 bytes
+2025/01/28-02:29:16.804 175ca compacted to: files[ 0 0 1 0 0 0 0 ]

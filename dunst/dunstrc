@@ -1,0 +1,4 @@
+[global]
+geometry = "300x5-10+50"
+title = Dunst
+class = Dunst

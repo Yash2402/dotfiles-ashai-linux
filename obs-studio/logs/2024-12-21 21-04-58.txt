@@ -1,0 +1,121 @@
+21:04:58.321: [Safe Mode] Unclean shutdown detected!
+21:05:00.903: [Safe Mode] User elected to launch normally.
+21:05:00.904: Using EGL/X11
+21:05:00.905: Physical Cores: 8, Logical Cores: 8
+21:05:00.905: Physical Memory: 7515MB Total, 978MB Free
+21:05:00.905: Kernel Version: Linux 6.12.4-400.asahi.fc41.aarch64+16k
+21:05:00.905: Distribution: "Fedora Linux Asahi Remix" 41
+21:05:00.905: Desktop Environment: i3 (i3)
+21:05:00.905: Session Type: x11
+21:05:00.905: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+21:05:00.908: Qt Version: 6.8.1 (runtime), 6.8.0 (compiled)
+21:05:00.908: Portable mode: false
+21:05:00.961: OBS 31.0.0 (linux)
+21:05:00.961: ---------------------------------
+21:05:00.968: ---------------------------------
+21:05:00.968: audio settings reset:
+21:05:00.968: 	samples per sec: 48000
+21:05:00.968: 	speakers:        2
+21:05:00.968: 	max buffering:   960 milliseconds
+21:05:00.968: 	buffering type:  dynamically increasing
+21:05:00.973: ---------------------------------
+21:05:00.973: Initializing OpenGL...
+21:05:01.030: Loading up OpenGL on adapter Mesa Apple M1 (G13G B1)
+21:05:01.030: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.0-asahi20241211, shading language 4.60
+21:05:01.057: ---------------------------------
+21:05:01.057: video settings reset:
+21:05:01.057: 	base resolution:   2560x1600
+21:05:01.057: 	output resolution: 2560x1600
+21:05:01.057: 	downscale filter:  Bicubic
+21:05:01.057: 	fps:               60/1
+21:05:01.057: 	format:            NV12
+21:05:01.057: 	YUV mode:          Rec. 709/Partial
+21:05:01.057: NV12 texture support enabled
+21:05:01.057: P010 texture support not available
+21:05:01.063: Audio monitoring device:
+21:05:01.063: 	name: Default
+21:05:01.063: 	id: default
+21:05:01.064: ---------------------------------
+21:05:01.079: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:05:01.109: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:05:01.139: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:05:01.139: Failed to initialize module 'decklink.so'
+21:05:01.412: [pipewire] No capture sources available
+21:05:01.490: v4l2loopback not installed, virtual camera not registered
+21:05:01.749: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+21:05:01.749: FFmpeg VAAPI H264 encoding not supported
+21:05:01.749: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+21:05:01.749: FFmpeg VAAPI AV1 encoding not supported
+21:05:01.749: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+21:05:01.749: FFmpeg VAAPI HEVC encoding not supported
+21:05:01.813: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+21:05:01.813: 
+21:05:01.814: NVENC not supported
+21:05:01.814: Failed to initialize module 'obs-nvenc.so'
+21:05:02.108: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.4 | RPC Version: 1)
+21:05:02.108: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.0 | Qt version (run-time): 6.8.1
+21:05:02.108: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+21:05:02.109: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+21:05:02.115: [obs-websocket] [obs_module_load] Module loaded.
+21:05:02.212: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+21:05:02.212: ---------------------------------
+21:05:02.212:   Loaded Modules:
+21:05:02.212:     vlc-video.so
+21:05:02.212:     text-freetype2.so
+21:05:02.212:     rtmp-services.so
+21:05:02.212:     obs-websocket.so
+21:05:02.212:     obs-webrtc.so
+21:05:02.212:     obs-webkitgtk.so
+21:05:02.212:     obs-vst.so
+21:05:02.212:     obs-transitions.so
+21:05:02.212:     obs-outputs.so
+21:05:02.212:     obs-libfdk.so
+21:05:02.212:     obs-filters.so
+21:05:02.212:     obs-ffmpeg.so
+21:05:02.212:     linux-v4l2.so
+21:05:02.212:     linux-pulseaudio.so
+21:05:02.212:     linux-pipewire.so
+21:05:02.212:     linux-jack.so
+21:05:02.213:     linux-capture.so
+21:05:02.213:     linux-alsa.so
+21:05:02.213:     image-source.so
+21:05:02.213:     frontend-tools.so
+21:05:02.213:     decklink-output-ui.so
+21:05:02.213:     decklink-captions.so
+21:05:02.213: ---------------------------------
+21:05:02.213: ---------------------------------
+21:05:02.213: Available Encoders:
+21:05:02.213:   Video Encoders:
+21:05:02.213: 	- ffmpeg_openh264 (OpenH264)
+21:05:02.213: 	- ffmpeg_svt_av1 (SVT-AV1)
+21:05:02.213: 	- ffmpeg_aom_av1 (AOM AV1)
+21:05:02.213:   Audio Encoders:
+21:05:02.213: 	- ffmpeg_aac (FFmpeg AAC)
+21:05:02.213: 	- ffmpeg_opus (FFmpeg Opus)
+21:05:02.213: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+21:05:02.213: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+21:05:02.213: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+21:05:02.213: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+21:05:02.213: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+21:05:02.213: 	- libfdk_aac (libfdk AAC)
+21:05:02.213: ==== Startup complete ===============================================
+21:05:02.270: All scene data cleared
+21:05:02.270: ------------------------------------------------
+21:05:02.275: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+21:05:02.275: pulse-input: Audio format: s32le, 44100 Hz, 2 channels
+21:05:02.275: pulse-input: Started recording from 'alsa_output.platform-sound.pro-output-1.monitor' (default)
+21:05:02.275: [Loaded global audio device]: 'Desktop Audio'
+21:05:02.275: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+21:05:02.276: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:05:02.276: pulse-input: Started recording from 'alsa_input.platform-sound.pro-input-0' (default)
+21:05:02.276: [Loaded global audio device]: 'Mic/Aux'
+21:05:02.276: xshm-input: Geometry 2560x1600 @ 0,0
+21:05:02.282: Switched to scene 'Scene'
+21:05:02.282: ------------------------------------------------
+21:05:02.282: Loaded scenes:
+21:05:02.282: - scene 'Scene':
+21:05:02.282:     - source: 'Display Capture (XSHM)' (xshm_input)
+21:05:02.282: ------------------------------------------------
+21:05:02.845: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+21:05:02.845: 
+01:20:35.159: The X11 connection broke (error 1). Did the X11 server die?

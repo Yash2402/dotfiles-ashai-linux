@@ -1,0 +1,9 @@
+2025/01/28-11:06:20.666 4 Reusing MANIFEST /home/yashsharma/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/01/28-11:06:20.671 4 Recovering log #6
+2025/01/28-11:06:20.672 4 Reusing old log /home/yashsharma/.config/chromium/Default/Local Storage/leveldb/000006.log 
+2025/01/28-11:09:25.215 6 Level-0 table #10: started
+2025/01/28-11:09:25.222 6 Level-0 table #10: 125587 bytes OK
+2025/01/28-11:09:25.224 6 Delete type=0 #6
+2025/01/28-11:11:25.215 6 Level-0 table #12: started
+2025/01/28-11:11:25.217 6 Level-0 table #12: 15238 bytes OK
+2025/01/28-11:11:25.220 6 Delete type=0 #9

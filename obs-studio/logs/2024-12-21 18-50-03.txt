@@ -1,0 +1,118 @@
+18:50:03.855: Using EGL/X11
+18:50:03.855: Physical Cores: 8, Logical Cores: 8
+18:50:03.855: Physical Memory: 7515MB Total, 3169MB Free
+18:50:03.855: Kernel Version: Linux 6.12.4-400.asahi.fc41.aarch64+16k
+18:50:03.855: Distribution: "Fedora Linux Asahi Remix" 41
+18:50:03.855: Desktop Environment: i3 (i3)
+18:50:03.855: Session Type: x11
+18:50:03.855: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+18:50:03.856: Qt Version: 6.8.1 (runtime), 6.8.0 (compiled)
+18:50:03.856: Portable mode: false
+18:50:03.881: OBS 31.0.0 (linux)
+18:50:03.881: ---------------------------------
+18:50:03.885: ---------------------------------
+18:50:03.885: audio settings reset:
+18:50:03.885: 	samples per sec: 48000
+18:50:03.885: 	speakers:        2
+18:50:03.885: 	max buffering:   960 milliseconds
+18:50:03.885: 	buffering type:  dynamically increasing
+18:50:03.890: ---------------------------------
+18:50:03.890: Initializing OpenGL...
+18:50:03.945: Loading up OpenGL on adapter Mesa Apple M1 (G13G B1)
+18:50:03.945: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.0-asahi20241211, shading language 4.60
+18:50:03.969: ---------------------------------
+18:50:03.969: video settings reset:
+18:50:03.969: 	base resolution:   2560x1600
+18:50:03.969: 	output resolution: 2560x1600
+18:50:03.969: 	downscale filter:  Bicubic
+18:50:03.969: 	fps:               60/1
+18:50:03.969: 	format:            NV12
+18:50:03.969: 	YUV mode:          Rec. 709/Partial
+18:50:03.969: NV12 texture support enabled
+18:50:03.969: P010 texture support not available
+18:50:03.973: Audio monitoring device:
+18:50:03.973: 	name: Default
+18:50:03.973: 	id: default
+18:50:03.973: ---------------------------------
+18:50:04.016: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:50:04.030: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:50:04.060: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:50:04.060: Failed to initialize module 'decklink.so'
+18:50:04.280: [pipewire] No capture sources available
+18:50:04.326: v4l2loopback not installed, virtual camera not registered
+18:50:04.485: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+18:50:04.485: FFmpeg VAAPI H264 encoding not supported
+18:50:04.485: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+18:50:04.485: FFmpeg VAAPI AV1 encoding not supported
+18:50:04.485: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+18:50:04.485: FFmpeg VAAPI HEVC encoding not supported
+18:50:04.550: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+18:50:04.550: 
+18:50:04.550: NVENC not supported
+18:50:04.550: Failed to initialize module 'obs-nvenc.so'
+18:50:04.735: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.4 | RPC Version: 1)
+18:50:04.735: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.0 | Qt version (run-time): 6.8.1
+18:50:04.735: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+18:50:04.735: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+18:50:04.739: [obs-websocket] [obs_module_load] Module loaded.
+18:50:04.823: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+18:50:04.824: ---------------------------------
+18:50:04.824:   Loaded Modules:
+18:50:04.824:     vlc-video.so
+18:50:04.824:     text-freetype2.so
+18:50:04.824:     rtmp-services.so
+18:50:04.824:     obs-websocket.so
+18:50:04.824:     obs-webrtc.so
+18:50:04.824:     obs-webkitgtk.so
+18:50:04.824:     obs-vst.so
+18:50:04.824:     obs-transitions.so
+18:50:04.824:     obs-outputs.so
+18:50:04.824:     obs-libfdk.so
+18:50:04.824:     obs-filters.so
+18:50:04.824:     obs-ffmpeg.so
+18:50:04.824:     linux-v4l2.so
+18:50:04.824:     linux-pulseaudio.so
+18:50:04.824:     linux-pipewire.so
+18:50:04.824:     linux-jack.so
+18:50:04.824:     linux-capture.so
+18:50:04.824:     linux-alsa.so
+18:50:04.824:     image-source.so
+18:50:04.824:     frontend-tools.so
+18:50:04.824:     decklink-output-ui.so
+18:50:04.824:     decklink-captions.so
+18:50:04.824: ---------------------------------
+18:50:04.824: ---------------------------------
+18:50:04.824: Available Encoders:
+18:50:04.824:   Video Encoders:
+18:50:04.824: 	- ffmpeg_openh264 (OpenH264)
+18:50:04.824: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:50:04.824: 	- ffmpeg_aom_av1 (AOM AV1)
+18:50:04.824:   Audio Encoders:
+18:50:04.824: 	- ffmpeg_aac (FFmpeg AAC)
+18:50:04.824: 	- ffmpeg_opus (FFmpeg Opus)
+18:50:04.824: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:50:04.824: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:50:04.824: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:50:04.824: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:50:04.824: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:50:04.824: 	- libfdk_aac (libfdk AAC)
+18:50:04.824: ==== Startup complete ===============================================
+18:50:04.910: All scene data cleared
+18:50:04.910: ------------------------------------------------
+18:50:04.915: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+18:50:04.915: pulse-input: Audio format: s32le, 44100 Hz, 2 channels
+18:50:04.915: pulse-input: Started recording from 'alsa_output.platform-sound.pro-output-1.monitor' (default)
+18:50:04.915: [Loaded global audio device]: 'Desktop Audio'
+18:50:04.916: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+18:50:04.916: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:50:04.916: pulse-input: Started recording from 'alsa_input.platform-sound.pro-input-0' (default)
+18:50:04.916: [Loaded global audio device]: 'Mic/Aux'
+18:50:04.966: xshm-input: Geometry 2560x1600 @ 0,0
+18:50:04.972: Switched to scene 'Scene'
+18:50:04.972: ------------------------------------------------
+18:50:04.972: Loaded scenes:
+18:50:04.972: - scene 'Scene':
+18:50:04.972:     - source: 'Display Capture (XSHM)' (xshm_input)
+18:50:04.972: ------------------------------------------------
+18:50:05.485: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:50:05.485: 

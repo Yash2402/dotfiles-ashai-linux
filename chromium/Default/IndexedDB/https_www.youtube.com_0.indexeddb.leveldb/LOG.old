@@ -1,0 +1,6 @@
+2025/01/28-02:19:10.691 175c7 Creating DB /home/yashsharma/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2025/01/28-02:19:10.708 175c7 Reusing MANIFEST /home/yashsharma/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/28-02:19:51.733 175c6 Level-0 table #5: started
+2025/01/28-02:19:51.737 175c6 Level-0 table #5: 101626 bytes OK
+2025/01/28-02:19:51.739 175c6 Delete type=0 #3
+2025/01/28-02:19:51.739 175c6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

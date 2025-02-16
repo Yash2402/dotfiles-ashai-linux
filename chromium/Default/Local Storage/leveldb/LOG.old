@@ -1,0 +1,8 @@
+2025/01/28-02:08:53.756 4 Creating DB /home/yashsharma/.config/chromium/Default/Local Storage/leveldb since it was missing.
+2025/01/28-02:08:53.761 4 Reusing MANIFEST /home/yashsharma/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/01/28-02:16:14.732 5 Level-0 table #5: started
+2025/01/28-02:16:14.738 5 Level-0 table #5: 30405 bytes OK
+2025/01/28-02:16:14.739 5 Delete type=0 #3
+2025/01/28-02:29:31.956 5 Level-0 table #7: started
+2025/01/28-02:29:31.959 5 Level-0 table #7: 39095 bytes OK
+2025/01/28-02:29:31.961 5 Delete type=0 #4

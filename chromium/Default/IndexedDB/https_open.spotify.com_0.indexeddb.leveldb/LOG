@@ -1,0 +1,12 @@
+2025/01/28-11:06:26.541 fb2 Reusing MANIFEST /home/yashsharma/.config/chromium/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/28-11:06:26.541 fb2 Recovering log #9
+2025/01/28-11:06:26.554 fb2 Reusing old log /home/yashsharma/.config/chromium/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000009.log 
+2025/01/28-11:06:26.554 fb2 Delete type=2 #8
+2025/01/28-11:06:26.554 fb2 Delete type=2 #10
+2025/01/28-11:10:14.620 fb2 Level-0 table #14: started
+2025/01/28-11:10:14.633 fb2 Level-0 table #14: 873215 bytes OK
+2025/01/28-11:10:14.633 fb2 Delete type=0 #9
+2025/01/28-11:10:14.645 fb4 Compacting 1@1 + 1@2 files
+2025/01/28-11:10:14.654 fb4 Generated table #15@1: 2595 keys, 223546 bytes
+2025/01/28-11:10:14.654 fb4 Compacted 1@1 + 1@2 files => 223546 bytes
+2025/01/28-11:10:14.655 fb4 compacted to: files[ 0 0 1 0 0 0 0 ]

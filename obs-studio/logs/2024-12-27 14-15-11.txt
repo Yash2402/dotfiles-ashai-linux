@@ -1,0 +1,191 @@
+14:15:11.965: [Safe Mode] Unclean shutdown detected!
+14:15:13.796: [Safe Mode] User elected to launch normally.
+14:15:13.797: Using EGL/X11
+14:15:13.798: Physical Cores: 8, Logical Cores: 8
+14:15:13.798: Physical Memory: 7515MB Total, 1363MB Free
+14:15:13.798: Kernel Version: Linux 6.12.4-400.asahi.fc41.aarch64+16k
+14:15:13.799: Distribution: "Fedora Linux Asahi Remix" 41
+14:15:13.799: Desktop Environment: i3 (i3)
+14:15:13.799: Session Type: x11
+14:15:13.799: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+14:15:13.802: Qt Version: 6.8.1 (runtime), 6.8.0 (compiled)
+14:15:13.802: Portable mode: false
+14:15:13.821: OBS 31.0.0 (linux)
+14:15:13.821: ---------------------------------
+14:15:13.832: ---------------------------------
+14:15:13.832: audio settings reset:
+14:15:13.832: 	samples per sec: 48000
+14:15:13.832: 	speakers:        2
+14:15:13.832: 	max buffering:   960 milliseconds
+14:15:13.832: 	buffering type:  dynamically increasing
+14:15:13.839: ---------------------------------
+14:15:13.839: Initializing OpenGL...
+14:15:13.894: Loading up OpenGL on adapter Mesa Apple M1 (G13G B1)
+14:15:13.894: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.0-asahi20241211, shading language 4.60
+14:15:13.917: ---------------------------------
+14:15:13.917: video settings reset:
+14:15:13.917: 	base resolution:   2560x1600
+14:15:13.917: 	output resolution: 2560x1600
+14:15:13.917: 	downscale filter:  Bicubic
+14:15:13.917: 	fps:               60/1
+14:15:13.917: 	format:            NV12
+14:15:13.917: 	YUV mode:          Rec. 709/Partial
+14:15:13.917: NV12 texture support enabled
+14:15:13.917: P010 texture support not available
+14:15:13.923: Audio monitoring device:
+14:15:13.923: 	name: Default
+14:15:13.923: 	id: default
+14:15:13.923: ---------------------------------
+14:15:13.936: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:15:13.950: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:15:13.978: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:15:13.978: Failed to initialize module 'decklink.so'
+14:15:14.249: [pipewire] No capture sources available
+14:15:14.335: v4l2loopback not installed, virtual camera not registered
+14:15:14.511: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+14:15:14.511: FFmpeg VAAPI H264 encoding not supported
+14:15:14.511: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+14:15:14.511: FFmpeg VAAPI AV1 encoding not supported
+14:15:14.511: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+14:15:14.511: FFmpeg VAAPI HEVC encoding not supported
+14:15:14.602: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+14:15:14.602: 
+14:15:14.602: NVENC not supported
+14:15:14.602: Failed to initialize module 'obs-nvenc.so'
+14:15:14.824: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.4 | RPC Version: 1)
+14:15:14.824: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.0 | Qt version (run-time): 6.8.1
+14:15:14.824: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+14:15:14.824: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+14:15:14.829: [obs-websocket] [obs_module_load] Module loaded.
+14:15:14.925: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+14:15:14.925: ---------------------------------
+14:15:14.925:   Loaded Modules:
+14:15:14.925:     vlc-video.so
+14:15:14.925:     text-freetype2.so
+14:15:14.925:     rtmp-services.so
+14:15:14.925:     obs-websocket.so
+14:15:14.925:     obs-webrtc.so
+14:15:14.925:     obs-webkitgtk.so
+14:15:14.925:     obs-vst.so
+14:15:14.925:     obs-transitions.so
+14:15:14.925:     obs-outputs.so
+14:15:14.925:     obs-libfdk.so
+14:15:14.926:     obs-filters.so
+14:15:14.926:     obs-ffmpeg.so
+14:15:14.926:     linux-v4l2.so
+14:15:14.926:     linux-pulseaudio.so
+14:15:14.926:     linux-pipewire.so
+14:15:14.926:     linux-jack.so
+14:15:14.926:     linux-capture.so
+14:15:14.926:     linux-alsa.so
+14:15:14.926:     image-source.so
+14:15:14.926:     frontend-tools.so
+14:15:14.926:     decklink-output-ui.so
+14:15:14.926:     decklink-captions.so
+14:15:14.926: ---------------------------------
+14:15:14.926: ---------------------------------
+14:15:14.926: Available Encoders:
+14:15:14.926:   Video Encoders:
+14:15:14.926: 	- ffmpeg_openh264 (OpenH264)
+14:15:14.926: 	- ffmpeg_svt_av1 (SVT-AV1)
+14:15:14.926: 	- ffmpeg_aom_av1 (AOM AV1)
+14:15:14.926:   Audio Encoders:
+14:15:14.926: 	- ffmpeg_aac (FFmpeg AAC)
+14:15:14.926: 	- ffmpeg_opus (FFmpeg Opus)
+14:15:14.926: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+14:15:14.926: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+14:15:14.926: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+14:15:14.926: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+14:15:14.926: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+14:15:14.926: 	- libfdk_aac (libfdk AAC)
+14:15:14.926: ==== Startup complete ===============================================
+14:15:14.985: All scene data cleared
+14:15:14.985: ------------------------------------------------
+14:15:14.990: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+14:15:14.990: pulse-input: Audio format: s32le, 44100 Hz, 2 channels
+14:15:14.990: pulse-input: Started recording from 'alsa_output.platform-sound.pro-output-1.monitor' (default)
+14:15:14.990: [Loaded global audio device]: 'Desktop Audio'
+14:15:14.990: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+14:15:14.991: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:15:14.991: pulse-input: Started recording from 'alsa_input.platform-sound.pro-input-0' (default)
+14:15:14.991: [Loaded global audio device]: 'Mic/Aux'
+14:15:14.991: xshm-input: Geometry 2560x1600 @ 0,0
+14:15:14.998: Switched to scene 'Scene'
+14:15:14.999: ------------------------------------------------
+14:15:14.999: Loaded scenes:
+14:15:14.999: - scene 'Scene':
+14:15:14.999:     - source: 'Display Capture (XSHM)' (xshm_input)
+14:15:14.999: ------------------------------------------------
+14:15:15.560: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+14:15:15.560: 
+14:15:19.385: ---------------------------------
+14:15:19.385: [H.264 encoder: 'simple_video_recording'] settings:
+14:15:19.385: 	encoder:      OpenH264
+14:15:19.385: 	rc_mode:      quality
+14:15:19.385: 	bitrate:      2500
+14:15:19.385: 	profile:      main
+14:15:19.385: 	width:        2560
+14:15:19.385: 	height:       1600
+14:15:19.385: 	ffmpeg opts:  
+14:15:19.385: 
+14:15:19.389: libfdk_aac encoder created
+14:15:19.389: libfdk_aac bitrate: 192, channels: 2
+14:15:19.389: libfdk_aac encoder created
+14:15:19.389: libfdk_aac bitrate: 192, channels: 2
+14:15:19.389: libfdk_aac encoder created
+14:15:19.389: libfdk_aac bitrate: 192, channels: 2
+14:15:19.389: [ffmpeg muxer: 'simple_file_output'] Using muxer settings:
+14:15:19.389: 	movflags=frag_keyframe+empty_moov+delay_moov
+14:15:19.398: ==== Recording Start ===============================================
+14:15:19.398: [ffmpeg muxer: 'simple_file_output'] Writing file '/run/media/yashsharma/Samsung T7/Linux OBS Recordings/2024-12-27 14-15-19.mp4'...
+14:18:11.158: [OpenH264 encoder: 'simple_video_recording'] Encoding queue duration surpassed 5 seconds, terminating encoder
+14:18:11.165: Error encoding with encoder 'simple_video_recording'
+14:18:11.513: [ffmpeg muxer: 'simple_file_output'] Output of file '/run/media/yashsharma/Samsung T7/Linux OBS Recordings/2024-12-27 14-15-19.mp4' stopped
+14:18:11.513: Output 'simple_file_output': stopping
+14:18:11.513: Output 'simple_file_output': Total frames output: 8787
+14:18:11.513: Output 'simple_file_output': Total drawn frames: 10039 (10327 attempted)
+14:18:11.514: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 288 (2.8%)
+14:18:11.518: ==== Recording Stop ================================================
+14:18:11.518: Video stopped, number of skipped frames due to encoding lag: 254/9801 (2.6%)
+14:18:11.527: libfdk_aac encoder destroyed
+14:18:11.528: libfdk_aac encoder destroyed
+14:18:11.528: libfdk_aac encoder destroyed
+14:18:16.552: Switched to Preview/Program mode
+14:18:16.552: ------------------------------------------------
+14:18:17.561: Switched to scene 'Scene'
+14:18:17.567: Switched to regular Preview mode
+14:18:17.567: ------------------------------------------------
+14:18:18.112: ---------------------------------
+14:18:18.112: [H.264 encoder: 'simple_video_recording'] settings:
+14:18:18.112: 	encoder:      OpenH264
+14:18:18.112: 	rc_mode:      quality
+14:18:18.112: 	bitrate:      2500
+14:18:18.112: 	profile:      main
+14:18:18.112: 	width:        2560
+14:18:18.112: 	height:       1600
+14:18:18.112: 	ffmpeg opts:  
+14:18:18.112: 
+14:18:18.118: libfdk_aac encoder created
+14:18:18.119: libfdk_aac bitrate: 192, channels: 2
+14:18:18.119: libfdk_aac encoder created
+14:18:18.119: libfdk_aac bitrate: 192, channels: 2
+14:18:18.119: libfdk_aac encoder created
+14:18:18.119: libfdk_aac bitrate: 192, channels: 2
+14:18:18.120: [ffmpeg muxer: 'simple_file_output'] Using muxer settings:
+14:18:18.120: 	movflags=frag_keyframe+empty_moov+delay_moov
+14:18:18.135: ==== Recording Start ===============================================
+14:18:18.135: [ffmpeg muxer: 'simple_file_output'] Writing file '/run/media/yashsharma/Samsung T7/Linux OBS Recordings/2024-12-27 14-18-18.mp4'...
+14:18:18.485: Switched to Preview/Program mode
+14:18:18.485: ------------------------------------------------
+14:18:19.694: Switched to scene 'Scene'
+14:18:19.700: Switched to regular Preview mode
+14:18:19.700: ------------------------------------------------
+14:20:44.266: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+14:20:44.266: 
+15:03:07.972: ==== Shutting down ==================================================
+15:03:07.984: pulse-input: Stopped recording from 'alsa_output.platform-sound.pro-output-1.monitor'
+15:03:07.984: pulse-input: Got 18564 packets with 20457528 frames
+15:03:07.985: pulse-input: Stopped recording from 'alsa_input.platform-sound.pro-input-0'
+15:03:07.985: pulse-input: Got 18564 packets with 22276800 frames
+15:03:08.029: All scene data cleared
+15:03:08.029: ------------------------------------------------
